@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h2><img id="logo" src="img/logo.png">Compras</h2>
+    </header>
+    <div id="div-menu">
+        <a href="home.html">
+            <button id="img-a">
+            <img class="img-button" src="img/home.png">Home    
+            </button>
+        </a>
+        <a href="compra.html"> 
+            <button id="img-a" >
+            <img id="img-button" class="img-button" src="img/carrito.png">Compras
+            </button>
+        </a>
+    </div>
+
+
+    <div id="div-form">
+        <form id="form" class="form">
+            <p>El dia de hoy tenemos una oferta especial para ti, si llevas 2 computadores obtendras un descuento del 10% sobre el total de tu compra.</p>
+            <br>
+            <label >Cantidad de computadores:</label>
+            <input id="units" type="number"  placeholder="Ingresa las unidades" required>
+            <button class="calc" type="submit">Calcular</button>
+        </form>
+    </div>
+     
+    <script src="index.js" ></script>
+</body>
+</html>
